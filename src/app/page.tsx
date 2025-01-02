@@ -9,7 +9,6 @@ import standard from "../app/images/standard.png";
 import luxury from "../app/images/luxury.png";
 import suv from "../app/images/suv.png";
 import SearchForm from "./component/page";
-import mb from "../app/images/mb.png";
 import t from "../app/images/t.png";
 import h from "../app/images/h.png";
 import s from "../app/images/s.png";
@@ -29,14 +28,6 @@ export default function Page() {
   return (
     <div className="bg-slate-100 h-full">
       <title>QuickRent Cars</title>
-
-      <div>
-        <Image
-          src={mb}
-          alt="No"
-          className="h-16 w-20 mb-[-100] hidden sm:block xl:h-16 xl:w-20 xl:mb-[-100] lg:h-16 lg:w-20 lg:mb-[-100] md:h-16 md:w-20 md:mb-[-60]"
-        />
-      </div>
       <div className="bg-white rounded-lg h-16 w-screen flex justify-center items-center font-serif gap-4 sm:gap-6 md:gap-9 px-4">
         <Link href="/">
           <button className="hover:bg-slate-500 hover:h-7 hover:px-3 hover:text-white hover:rounded-md text-sm sm:text-base md:text-lg">
