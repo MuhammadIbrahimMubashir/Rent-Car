@@ -34,7 +34,7 @@ export default function Page() {
         <Image
           src={mb}
           alt="No"
-          className="h-16 w-20 mb-[-60] hidden sm:block xl:h-16 xl:w-20 xl:mb-[-60] lg:h-16 lg:w-20 lg:mb-[-60] md:h-16 md:w-20 md:mb-[-60]"
+          className="h-16 w-20 mb-[-100] hidden sm:block xl:h-16 xl:w-20 xl:mb-[-100] lg:h-16 lg:w-20 lg:mb-[-100] md:h-16 md:w-20 md:mb-[-60]"
         />
       </div>
       <div className="bg-white rounded-lg h-16 w-screen flex justify-center items-center font-serif gap-4 sm:gap-6 md:gap-9 px-4">
